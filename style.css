@@ -13,6 +13,12 @@ body {
     margin: auto;
 }
 
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .btn {
     padding: 6px;
     border-radius: 5px;
@@ -120,9 +126,12 @@ header {
     margin-bottom: 40px;
 }
 
-section{
+section.grey-block{
     background-color: #f9f9f9;
-    height: 155px;
+}
+
+section {
+    background: white;
 }
 
 section .container {
@@ -138,7 +147,7 @@ section .container {
     font-weight: 300;
 }
 
-.row p {
+.row p, .info-container-description p{
     height: 40px;
     line-height: 40px;
     font-size: 18px;
@@ -191,4 +200,36 @@ ul {
 
 hr {
     margin: auto;
+}
+
+.img-info-50, .info-container-50 {
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+.img-info-50 img {
+    height: 500px;
+}
+
+.info-container-description {
+    text-align: left;
+    padding-top: calc((500px - 219px)/2);
+    padding-bottom: calc((500px - 219px)/2);
+}
+
+.info-container-description h4 {
+    color: #4a4a4a;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.info-container-description p{
+    margin-bottom: 50px;
+    height: 50px;
+}
+
+.info-container-description a{
+    color: #98c8f8;
 }
