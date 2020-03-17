@@ -119,3 +119,33 @@ header {
     font-weight: normal;
     margin-bottom: 40px;
 }
+
+section{
+    background-color: #f9f9f9;
+    height: 155px;
+}
+
+section .container {
+    padding-top: calc((155px - 80px)/2);
+    padding-bottom: calc((155px - 80px)/2);
+    text-align: center;
+}
+
+.container h4 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.container p {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #999;
+}
+
+ul {
+    list-style-type: none;
+}
