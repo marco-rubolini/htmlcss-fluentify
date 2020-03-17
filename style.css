@@ -131,14 +131,14 @@ section .container {
     text-align: center;
 }
 
-.container h4 {
+.container h2 {
     height: 40px;
     line-height: 40px;
     font-size: 24px;
     font-weight: 300;
 }
 
-.container p {
+.row p {
     height: 40px;
     line-height: 40px;
     font-size: 18px;
@@ -157,16 +157,38 @@ ul {
 
 .info-container {
     width: 100%;
-    height: 300px;
-    background-color: yellow;
 }
 
 .img-info {
-    height: 240px;
-    background-color: red;
+    height: 200px;
+    padding: 20px;
 }
 
 .description-info {
-    height: 60px;
-    background-color: blue;
+
+}
+
+.img-info img {
+    height: 160px;
+}
+
+.text-info {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #999;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.description-info hr {
+    opacity: .3;
+    width: 32px;
+    border-top: 2px solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: auto;
 }
