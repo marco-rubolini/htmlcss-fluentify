@@ -233,3 +233,22 @@ hr {
 .info-container-description a{
     color: #98c8f8;
 }
+
+.text-left span {
+    color: #4a4a4a;
+    font-size: 30px;
+}
+
+.text-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.txt-container {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: calc((39px - 22px)/2);
+    padding-bottom: calc((39px - 22px)/2);
+}
